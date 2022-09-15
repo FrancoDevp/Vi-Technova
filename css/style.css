@@ -65,6 +65,8 @@ body {
 
 .titleFooter{
     font-size:19px;
+    text-decoration: none;
+    color:black;
 }
 
 .logoFooter{
