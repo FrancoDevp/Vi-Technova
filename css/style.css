@@ -40,12 +40,22 @@ body {
 }
 
 .productoBox{
-    margin: 5px;
+    width: 105px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px  grey;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;;
 }
 
 .productoImg{
     width: 90px;
     height: 90px;
+}
+
+.btn{
+    border: 0.5px solid grey;
+    width:90px;
 }
 
 .footer{
