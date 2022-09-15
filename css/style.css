@@ -1,0 +1,64 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.box {
+    background-image: url("../assets/img/fondo-desarrollo-aplicaciones-moviles_73903-295.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.logoV{
+    width:150px;
+    position: relative;
+    left: 115px;
+}
+
+.nav-link {
+    font-size:18px;
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+.nav-link:hover {
+    color:yellowgreen;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+}
+
+.productosContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px;
+}
+
+.productoBox{
+    margin: 5px;
+}
+
+.productoImg{
+    width: 90px;
+    height: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.titleFooter{
+    font-size:19px;
+}
+
+.logoFooter{
+    width:30px;
+    height:30px;
+    margin:0 10px 0 10px;
+}
