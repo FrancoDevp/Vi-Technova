@@ -60,8 +60,9 @@ body {
 }
 
 .productoBox{
-    width: 105px;
-    margin: 2px;
+    height:100%;
+    width:45%;
+    margin: 10px;
     padding: 5px;
     border: 1px  grey;
     border-radius: 20px;
@@ -70,8 +71,8 @@ body {
 }
 
 .productoImg{
-    width: 90px;
-    height: 90px;
+    width: 90%;
+    height: 90%;
 }
 
 .btn{
@@ -107,7 +108,7 @@ body {
 
 .titleModelo{
     font-size: 15px;
-    height:13%;
+    height:100%;
     margin-bottom: 20%;
 }
 
