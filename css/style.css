@@ -41,6 +41,11 @@ body {
     border-bottom: 3px solid yellowgreen;
 }
 
+.nav-inicio{
+    padding: 1px;
+    border-bottom: 3px solid yellowgreen;
+}
+
 .card {
     width: 100px;
     height: 100px;
@@ -51,7 +56,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin:10px;|
+    margin:10px;
 }
 
 .productoBox{
