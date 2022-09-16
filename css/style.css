@@ -46,17 +46,11 @@ body {
     border-bottom: 3px solid rgb(205, 207, 200);
 }
 
-.card {
-    width: 100px;
-    height: 100px;
-}
-
 .productosContainer{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin:10px;
 }
 
 .productoBox{
@@ -71,8 +65,8 @@ body {
 }
 
 .productoImg{
-    width: 90%;
-    height: 90%;
+    width: 130px;
+    height: 130px;
 }
 
 .btn{
@@ -107,9 +101,9 @@ body {
 }
 
 .titleModelo{
+    height:30px;
     font-size: 15px;
-    height:100%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
 .p_box{
