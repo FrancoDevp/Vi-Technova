@@ -12,10 +12,11 @@ body {
 .logoV{
     width:150px;
     position: relative;
-    left: 115px;
+    left: 29%;
 }
 
 .nav-link {
+
     font-size:18px;
     color: black;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -24,6 +25,18 @@ body {
 
 .nav-link:hover {
     color:yellowgreen;
+}
+
+.nav-producto{
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius:10px;
+}
+
+.nav-contacto{
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius:10px;
 }
 
 .card {
