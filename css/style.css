@@ -76,7 +76,7 @@ body {
 }
 
 .footer{
-    margin-top: 600px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -256,6 +256,12 @@ body {
     background: linear-gradient(90deg, transparent, #03e9f4);
     animation: btn-anim1 1s linear infinite;
   }
+
+  .footerContacto{
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+}
   
   @keyframes btn-anim1 {
     0% {
