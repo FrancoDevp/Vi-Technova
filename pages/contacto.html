@@ -18,7 +18,7 @@
     <title>Vi technova</title>
 </head>
 
-<body class="bodyInicio">
+<body class="bodyInicio body-contact">
     <div class="container-fluid">
         <img src="../assets/img/logo/logo vi technova.jpeg" class="logoV" />
         <div class="row">
@@ -35,24 +35,29 @@
             </ul>
         </div>
     </div>
-    <!-- formulario -->
-    <div class="form-group">
-        <h1 class="page-form">Mandanos un WhatsApp</h1>
-        <div class="box-div d-flex justify-content-center">
-            <input type="text" name="" id="nombres" placeholder="Ingrese su nombre" autocomplete="off" />
-        </div>
-        <div class="box-div d-flex justify-content-center">
-            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingrese el producto que desea"></textarea>
-        </div>
-        <div class="box-div d-flex justify-content-center">
-            <button id="send" class="d-flex justify-content-center btn btn-dark">
-                Enviar
-            </button>
-        </div>
+    <!-- form  -->
+    <div class="login-box">
+        <h2 class="consulta">Consulta WhatsApp</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="" required="" id="nombres" autocomplete="off">
+                <label>Ingrese su nombre</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="" id="mensaje" autocomplete="off">
+                <label>Ingrese el producto que desea</label>
+            </div>
+            <a id="send" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Enviar Consulta
+            </a>
+        </form>
     </div>
-
-    <!-- fin de formulario -->
-    <footer class="footer mt-5">
+    <!-- fin form  -->
+    <footer class="footer">
         <a href="http://www.instagram.com/vi.tech.nova/" class="titleFooter"><img src="../assets/img/logo/instagram.png"
                 class="logoFooter" />Vi
             Technova</a>
