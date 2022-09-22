@@ -1,4 +1,5 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +20,7 @@
 
 <body class="bodyInicio">
     <div class="container-fluid">
-        <img src="../assets/img/logo/logo vi technova.jpeg" class="logoV">
+        <img src="../assets/img/logo/logo vi technova.jpeg" class="logoV" />
         <div class="row">
             <ul class="nav justify-content-between p-3">
                 <li class="nav-item mt-2">
@@ -34,11 +35,35 @@
             </ul>
         </div>
     </div>
-        <footer class="footer">
-            <a href="http://www.instagram.com/vi.tech.nova/" class="titleFooter"><img src="../assets/img/logo/instagram.png" class="logoFooter">Vi Technova</a>
-            <p class="titleFooter"><img src="../assets/img/logo/whatsapp.png" class="logoFooter">3516314814</p>
-        </footer>
-    
+    <!-- formulario -->
+    <div class="form-group">
+        <h1 class="page-form">Formulario</h1>
+        <div class="box-div d-flex justify-content-center">
+            <input type="text" name="" id="nombres" placeholder="Ingrese su nombre" autocomplete="off" />
+        </div>
+        <div class="box-div d-flex justify-content-center">
+            <input type="text" name="" id="producto" placeholder="Nombre del producto" autocomplete="off" />
+        </div>
+        <div class="box-div d-flex justify-content-center">
+            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+        </div>
+        <div class="box-div d-flex justify-content-center">
+            <button id="send" class="d-flex justify-content-center btn btn-dark">
+                Enviar
+            </button>
+        </div>
+    </div>
+
+    <!-- fin de formulario -->
+    <footer class="footer mt-5">
+        <a href="http://www.instagram.com/vi.tech.nova/" class="titleFooter"><img src="../assets/img/logo/instagram.png"
+                class="logoFooter" />Vi
+            Technova</a>
+        <p class="titleFooter">
+            <img src="../assets/img/logo/whatsapp.png" class="logoFooter" />3516314814
+        </p>
+    </footer>
+
     <!-- BOOTSTRAP CDN JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -49,6 +74,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
